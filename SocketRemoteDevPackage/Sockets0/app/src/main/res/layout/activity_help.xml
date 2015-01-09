@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How it works?"
+        android:textSize="11pt"
+        android:layout_margin="7dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="1. Add a command or more of the targeted application by pressing the + button.\n
+2. Make sure that the command entered is valid and the program is installed in your PC.\n
+3. Start the server on your PC by executing the RemoteSocketServer.jar. And pressing the start server button.\n
+4. Change the settings of the app to match the ip address of the server(your pc) and port number = 5000.\n
+5. Click on the item to start it on the PC remotely!\n
+6. This can be used as a quick access way by launching frequently used app with one touch."
+        android:layout_margin="7dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="Note : "
+        android:textSize="8pt"
+        android:layout_margin="7dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If anything goes wrong just stop the server and start it again!"
+        android:layout_margin="7dp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>
+</ScrollView>

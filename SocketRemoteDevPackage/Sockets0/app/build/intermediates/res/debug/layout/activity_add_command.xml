@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Title : "
+        android:id="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title of the command"
+        android:ems="10"
+        android:id="@+id/field_title"
+        android:layout_margin="10dp"
+        android:inputType="textCapWords"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Terminal Command : "
+        android:id="@+id/textView3"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="the actual terminal command"
+        android:id="@+id/field_command"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Command"
+        android:id="@+id/btn_add_command"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
+
+</ScrollView><!-- From: file:/home/priyank/AndroidStudioProjects/Sockets0/app/src/main/res/layout/activity_add_command.xml -->
